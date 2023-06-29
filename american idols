@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-story w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-story w3-xxlarge"></i>
+    <p>FIRST STORY</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-story w3-xxlarge"></i>
+    <p>SECOND STORY</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-story w3-xxlarge"></i>
+    <p>REPORT</p>
+  
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">FIRST STORY</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">SECOND STORY</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">REPORT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <p style="text-align:center ;">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> American Music Icons</h1>
+    <h1 style="font-size: 25px;" >Welcome to our American Music Icons website. We are Alessia, Benedetta, Elisa and Riccardo, first year students of the second cycle degree in Language, Society and Communication at the University of Bologna.
+      </style>
+    <br>
+    <br>When talking about music, many were the topics that came to our minds. Also, the website title “American Music Icons” is very wide and potentially includes a lot of record-breaking performers on the music scene. Among them all, we decided to opt for The Destiny’s Child and Dolly Parton, denoting respectively a girl music group whose success in the hip-hop scene easily spread around the  world, and a Tennessee girl turning her music into the soundtrack of the American country tradition. The project we were able to carry on thanks to the Melody Unibo visualizations and graphics allowed us to bring to life many of the things we wanted to tell about our chosen music icons and also to discover a lot of information we were not aware of. 
+    <br>
+    <br>If you are interested in knowing more about how we developed our project, what information we focused on and how the Melody graphics look like, we invite you to scroll down this webpage and enjoy our stories. 
+    <br>
+  </h1>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<!-- First Story Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Melody story 1: The Destiny's Child's Records</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="text-align:center ;"></p>
+    <p>Our story aims at providing an overview of the amount of girl bands that have populated the music scene since the very beginning of the last century. Girl bands, especially the ones who have their origins in the United States of America, are many and diverse. This is the reason why, after delineating very briefly the amount of girl bands, the number of members they are (and were) composed of, we decided to focus on a particular girl band whose career is marked by an impressive amount of records and hits: The Destiny’s Child.
+    </p>
+    <br>
+    <p style="text-align:center ;"></p>
+    <p>Over the past decades, girl groups have been an integral part of the music industry, exerting a profound influence on the musical landscape and creating timeless hits. Today, their presence has grown exponentially, with a staggering number of over six hundred girl groups thriving worldwide.
+    </p>
+    <img src="img/image.jpg.png" width="800" height="500">
+     
+    <hr style="width:200px" class="w3-opacity"> 
+    <p style="text-align:center ;"></p> 
+    <p>The term "girl group" also denotes the wave of American female pop singing groups who flourished in the late 1950s and early 1960s.
+    </p>
+    <img src="img/a.jpg.png" width="800" height="500">
+    
+    
+    <hr style="width:200px" class="w3-opacity"> 
+    <p style="text-align:center ;"></p> 
+    <p>Girl Bands find their origins in different historical periods. However, the peak of girl band creation is clearly at the very beginning of the 90s. During this time, a significant number of Girl Bands emerged, with many of them typically featuring a three-member lineup.
+    </p>
+    <img src="img/ab.jpg.png" width="800" height="700">
+    <br>
+    <br>
+     <img src="img/abc.jpg.png" width="800" height="700">
+
+     <p style="text-align:center ;"></p>
+    <hr style="width:200px" class="w3-opacity"> 
+    <p>A particular band we decided to analyze is the multi-award winning all-female group The Destiny’s Child. The members are: LeToya Luckett, Farrah Franklin, Beyoncé, Michelle Williams, Kelly Rowland and LaTavia Roberson. They perform mainly hyp hop music and rhythm and blues. 
+    </p> 
+    <img src="img/abcd.jpg.png" width="800" height="800"
+
+    <p style="text-align:center ;"></p>
+    <hr style="width:200px" class="w3-opacity"> 
+    <p> Destiny's Child recorded mainly R&B and hip hop songs with styles that encompass urban, contemporary, and dance-pop.
+    </p> 
+    <img src="img/abcde.jpg.png" width="800" height="680">
+
+    <p style="text-align:center ;"></p>
+    <hr style="width:200px" class="w3-opacity"> 
+    <p> The group boasts an extensive and remarkable discography, encompassing a vast array of musical achievements. In addition to their collaborations, compilations, and individual tracks, they released a total of 21 studio albums throughout their active years.
+   </p> 
+    <img src="img/m.jpg.png" width="800" height="700">
+
+     <p style="text-align:center ;"></p>
+    <hr style="width:200px" class="w3-opacity">
+    <p>In addition to numerous nominations, the Destiny's Child received many awards across various categories. They were recognized for their exceptional talent, captivating music videos, mesmerizing dance routines, and outstanding performances overall.
+    </p>
+    <img src="img/n.jpg.png" width="800" height="700">
+     
+    <p style="text-align:center ;"></p>
+    <hr style="width:200px" class="w3-opacity">
+    <p>One of the last big shows where Destiny's Child performed together is the Super Bowl XLVII halftime show, which became the then second most watched show in Super Bowl history with 110.8 million viewers.
+    </p>
+    <img src="img/zyzy.png" width="800" height="650">
+    </header>
+  <!-- End First Story Section -->
+
+  <!-- Second Story Section -->
+   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Melody story 2: Dolly Parton, the Queen of Country music</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="text-align:center ;"></p>
+    <p>Country is a music genre originating in the Southern and Southwestern United States.</p>
+    <img src="img/zzz.png" width="800" height="700">
+    
+    <p style="text-align:center ;"></p>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Since the early 20th century, Tennessee has been home to many popular singers and it has been recognized worldwide as the capital of country music.
+   </p>
+   <img src="img/o.jpg.png" width="800" height="400">
+   <br>
+   <br>
+   <img src="img/p.jpg.png" width="800" height="700">
+
+    <hr style="width:200px" class="w3-opacity">
+   <p style="text-align:center ;"></p>
+    <p>When talking about Tennessee, it is impossible not to mention the Queen of country music: Dolly Parton.
+    </p>
+    <img src="img/l.jpg.png" width="800" height="600">
+
+    <hr style="width:200px" class="w3-opacity">
+    <p style="text-align:center ;"></p>
+    <p>The peak of her career started in the 1970s and continued in the new millennium. Dolly Parton, with a career spanning over 50 years, produced many successful albums starting from the early seventies, till the new millennium. Her discography includes studio, collaborative, live, soundtrack and compilation albums.
+   </p>
+   <img src="img/z.jpg.png" width="800" height="400">
+
+   <hr style="width:200px" class="w3-opacity">
+   <p style="text-align:center ;"></p>
+    <p>Dolly Parton, the iconic Queen of Country Music, has received many different typology of awards, which qualify her not only as a very successful singer, but also as an actor and a very influential public personality in general. Beyond the many recognitions, she received many nominations as well, which further identify the Country Music Queen as a very multifaceted and versatile performer.
+   </p>
+   <img src="img/wy.jpg.png" width="800" height="400">
+   <br>
+   <br>
+   <img src="img/lmno.png" width="800" height="700">
+   <br>
+   <br>
+   <img src="img/hk.jpg.png" width="800" height="700">
+
+   <hr style="width:200px" class="w3-opacity">
+   <p style="text-align:center ;"></p>
+    <p>Dolly Parton played a significant role in the Disney Channel TV series Hannah Montana, where she interprets the character of Hannah's (Miley Cyrus) aunt from Tennessee. The bond between them extends beyond the screen, as Dolly has a deep connection with Miley's father, Billy Ray Cyrus, and is also Miley's godmother. Furthermore, Miley herself has risen to become one of the most renowned performers of the present decade, with her work being notably influenced by the illustrious career of Dolly Parton.
+   </p>
+   <img src="img/www.jpg.png" width="800" height="600">
+
+   <hr style="width:200px" class="w3-opacity">
+   <p style="text-align:center ;"></p>
+    <p>Apart from the roles on the screen, Dolly Parton is mainly known for her successful songs, all of them having a deep country sound. Many of these compositions feature deeply personal and introspective lyrics, drawing inspiration from her own life experiences, much like the iconic track "Jolene".
+   </p>
+   <img src="img/sss.jpg.png" width="800" height="650">
+  </header>
+   <!-- End Second Story Section -->
+
+   <!-- Report Section -->
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+  <h2 class="w3-text-light-grey">Our Report</h2>
+  <hr style="width:200px" class="w3-opacity">
+  <p style="text-align:center ;"></p>
+  <br>
+  <h3 class="w3-text-light-grey">About Us</h3>
+  <table>
+    <thead>
+    <tr><th><img src="img/AvatarAle.png" width="200" height="200"></th><th><img src="img/AvatarBenni.png" width="200" height="200"></th><th><img src="img/AvatarEli.png" width="200" height="200"></th><th><img src="img/AvatarRichi.png" width="200" height="200"></th></tr>
+    </thead>
+    <tbody>
+    <tr><td>ALESSIA VALENTINI</td><td>BENEDETTA POLI</td><td>ELISA NICOLI</td><td>RICCARDO LA FORGIA</td></tr>
+    <tr><td>She worked on the<br> second Melody story<br> and on the<br>website content</td><td>She worked on the<br> first Melody story and<br> on the website HTML</td><td>She worked on the<br> first Melody story and<br> on the website HTML</td><td>He worked on the<br> second Melody story<br> and on the<br>website content</td></tr>
+    </tbody>
+    </table>
+    <br>
+    <br>
+<h3 class="w3-text-light-grey">Methodology: Melody, Wikidata, Data Sources - Challenges</h3>
+<hr style="width:200px" class="w3-opacity">
+<h4 class="w3-text-light-grey">Melody</h4>
+<p><b>Pros</b></p>
+<ul>
+  <li>The graphics of Melody is easy to understand and it is aesthetic</li>
+  <li>The fact that it is possible to see the queries even if the story is published and visible to anyone is useful - it would be even better if it would be possible to see them for everything in the story (ex. Map, counter, etc.) </li>
+  <li>Possibility of creating very rich and detailed tables</li>
+</ul>
+<p><b>Cons</b></p>
+<ul>
+  <li>As a group, we found it difficult to work on Melody stories, as we could only work from one account on a single computer. It could be useful to work on the same story or project from different devices all together.</li>
+  <li>It would be useful if we could save the project when we are working on it without publishing it, since sometimes it takes a lot to be saved and to see the latest uploaded version.</li>
+  <li>Some bugs: when we used the arrows to move the items up and down, they often got deleted. </li>
+</ul>
+<br>
+<h4 class="w3-text-light-grey">Wikidata</h4>
+<p><b>Pros</b></p>
+<ul>
+ <li>Some items are easy to find and have a useful list of properties associated with them;</li>
+ <li>The colors in the wikidata syntax are very useful for distinguishing the labels, the optional items and the items.</li>
+ <li>Wikidata offers you many examples in different languages, through which it is possible to find some useful properties and items.</li>
+</ul>
+<p><b>Cons</b></p>
+<ul>
+  <li>It was not easy to find results. Even if the queries were correct, the corpus didn’t have enough results or sources in order to give us numbers that were useful. </li>
+  <li>We had difficulties sometimes to find the correct queries. Ex “singer” gave us problems, and we used “musician” even if it is a more general and broader category.</li>
+  <li>Wikidata signals when you make a mistake in the query, however it does not specify the error. </li>
+  <li>Difficulty in finding the right properties, for example in distinguishing between P27 (country of citizenship), P276 (location), P495 (from), P19/P131* (resident in the territorial entity of), and the ones for the authorship of the songs, which ended up being “lyrics by”, P676, and not “is the author of” or “written by”. </li>
+</ul>
+<br>
+<h4 class="w3-text-light-grey">Data Sources</h4>
+<p>We started by doing some searches on the Polifonia corpus with the MusicBo module. However, we could not find much information about the artists we had in mind to analyze. MusicBo offers much data about music in Bologna and classical music in general, however, it was not possible to retrieve information about music in the world, so we opted for the Wikidata knowledge graph in general. MusicBo was useful for doing our first researches.</p>
+
+
+<!-- End Report Section -->
+
+<!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
